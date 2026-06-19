@@ -1,0 +1,83 @@
+{
+  "name": "user_info",
+  "title": "用户信息",
+  "schemas": [
+    {
+      "name": "userId",
+      "title": "用户ID",
+      "type": "String"
+    },
+    {
+      "name": "username",
+      "title": "用户名",
+      "type": "String"
+    },
+    {
+      "name": "password",
+      "title": "密码",
+      "type": "String"
+    },
+    {
+      "name": "realName",
+      "title": "真实姓名",
+      "type": "String"
+    },
+    {
+      "name": "phone",
+      "title": "手机号",
+      "type": "String"
+    },
+    {
+      "name": "email",
+      "title": "邮箱",
+      "type": "Email"
+    },
+    {
+      "name": "avatar",
+      "title": "头像URL",
+      "type": "Image"
+    },
+    {
+      "name": "role",
+      "title": "角色",
+      "type": "String"
+    },
+    {
+      "name": "departmentId",
+      "title": "所属部门ID",
+      "type": "String"
+    },
+    {
+      "name": "position",
+      "title": "职位",
+      "type": "String"
+    },
+    {
+      "name": "bio",
+      "title": "个人简介",
+      "type": "String"
+    },
+    {
+      "name": "status",
+      "title": "审核状态",
+      "type": "String"
+    },
+    {
+      "name": "registeredAt",
+      "title": "注册时间",
+      "type": "DateTime",
+      "format": "timestamp-ms"
+    },
+    {
+      "name": "approvedAt",
+      "title": "审核通过时间",
+      "type": "DateTime",
+      "format": "timestamp-ms"
+    },
+    {
+      "name": "approvedBy",
+      "title": "审核人",
+      "type": "String"
+    }
+  ]
+}
