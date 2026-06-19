@@ -548,7 +548,7 @@ export default function Approval(props) {
       {/* User Registration Audit Detail Dialog */}
       <Dialog open={showUserDetailDialog} onOpenChange={setShowUserDetailDialog}>
         <DialogContent className="max-w-md max-h-[90vh] overflow-y-auto">
-          {selectedPendingUser && <>
+          {selectedPendingUser && <div>
               <DialogHeader>
                 <DialogTitle>用户注册审核</DialogTitle>
               </DialogHeader>
@@ -594,14 +594,14 @@ export default function Approval(props) {
                   </div>
                 </div>
               </div>
-            </>}
+            </div>}
         </DialogContent>
       </Dialog>
 
       {/* Approval Detail Dialog */}
       <Dialog open={showDetailDialog} onOpenChange={setShowDetailDialog}>
         <DialogContent className="max-w-md max-h-[90vh] overflow-y-auto">
-          {selectedApproval && <>
+          {selectedApproval && <div>
               <DialogHeader>
                 <DialogTitle>审批详情</DialogTitle>
               </DialogHeader>
@@ -683,7 +683,7 @@ export default function Approval(props) {
                     </div>
                   </div>}
               </div>
-            </>}
+            </div>}
         </DialogContent>
       </Dialog>
     </div>;

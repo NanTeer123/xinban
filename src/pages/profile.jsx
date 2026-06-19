@@ -562,7 +562,7 @@ export default function Profile(props) {
                   <p className="font-medium text-blue-600">登录账号</p>
                 </div>
                 <ChevronRight className="h-5 w-5 text-gray-400" />
-              </div> : <>
+              </div> : <div>
                 <div className="flex items-center gap-3 p-4 cursor-pointer hover:bg-gray-50 transition-colors" onClick={() => setShowPasswordDialog(true)}>
                   <div className="w-10 h-10 rounded-full bg-orange-100 flex items-center justify-center">
                     <Shield className="h-5 w-5 text-orange-600" />
@@ -581,7 +581,7 @@ export default function Profile(props) {
                   </div>
                   <ChevronRight className="h-5 w-5 text-gray-400" />
                 </div>
-              </>}
+              </div>}
           </CardContent>
         </Card>
       </div>

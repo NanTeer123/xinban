@@ -664,7 +664,7 @@ export default function Tasks(props) {
       {/* Task Detail Dialog */}
       <Dialog open={showDetailDialog} onOpenChange={setShowDetailDialog}>
         <DialogContent className="max-w-md max-h-[90vh] overflow-y-auto">
-          {selectedTask && <>
+          {selectedTask && <div>
               <DialogHeader>
                 <DialogTitle>任务详情</DialogTitle>
               </DialogHeader>
@@ -767,7 +767,7 @@ export default function Tasks(props) {
                     </Button>}
                 </div>
               </div>
-            </>}
+            </div>}
         </DialogContent>
       </Dialog>
 
